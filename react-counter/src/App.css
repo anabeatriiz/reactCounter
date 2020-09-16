@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --colorBtn: #f39c74;
+  --colorBshadow: rgba(62, 9, 11, .3);
+}
+html,
+body,
+button {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(-45deg, #F39264, #eb8a49, #f2606f, #d67e2c);
+	background-size: 400% 400%;
+}
+
+
+.title_container {
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+}
+
+.box_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 15rem;
+}
+
+.buttons {
+  font-size: 5rem;
+  box-shadow: 0 7px 30px var(--colorBshadow);
+  height: 6rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.number_first {
+  font-size: 8rem;
+  margin: 0 2rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+}
+
+.box_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_effect {
+  font-size: 1.5rem;
+  width: 6rem;
+  height: 3rem;
+  border: 1px solid;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background: transparent;
+  margin-right: 2rem;
+}
+
+.randombtn {
+  margin-right: 0;
+}
+
+.button_effect:hover {
+  background: var(--colorBtn);
+}
